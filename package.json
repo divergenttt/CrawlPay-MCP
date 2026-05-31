@@ -1,0 +1,37 @@
+{
+  "name": "@crawlpay/mcp-server",
+  "version": "0.1.0",
+  "description": "Official CrawlPay MCP server for payment-required (402) flows",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "crawlpay-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "crawlpay.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "viem": "^2.50.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "crawlpay",
+    "x402",
+    "base",
+    "usdc",
+    "ai-agents"
+  ]
+}
