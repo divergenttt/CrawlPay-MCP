@@ -2,6 +2,11 @@
   "name": "@crawlpay/mcp-server",
   "version": "0.1.0",
   "description": "Official CrawlPay MCP server for payment-required (402) flows",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/divergenttt/CrawlPay-MCP"
+  },
+  "homepage": "https://crawl-pay.com",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
