@@ -1,6 +1,6 @@
 {
   "name": "@crawlpay/mcp-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Official CrawlPay MCP server for payment-required (402) flows",
   "repository": {
     "type": "git",
